@@ -1,0 +1,139 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: url(/img/ezgif.com-gif-maker.png), 
+    url(/img/ezgif.com-gif-maker\ 2.png), 
+    url(/img/paint-2235835_1280.png);
+    background-repeat: repeat;
+    z-index: 1;
+}
+::-webkit-scrollbar {
+    width: 1.5vw;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: white; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: black; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(17, 17, 17); 
+}
+@font-face{
+    font-family: 'MeLikey';
+    src: url(/css/MeLikey.ttf);
+}
+#logo{
+    display: block;
+    width: 17%;
+    position: fixed;
+    z-index: 8;
+}
+
+#table {
+    height: 10vw;
+}
+
+#Nav{
+    z-index: 7;
+}
+
+ul#Nav {
+	list-style: none;
+    list-style-type: none;
+    margin-top: 2vw;
+    margin-left: 15vw;
+    position: fixed;
+}
+
+ul#Nav li {
+    background-image: url("/img/Button-Black-1014x600.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'MeLikey';
+    padding: 2vw;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+ul#Nav a{
+    color: black;
+    text-decoration: none;
+    text-emphasis: none;    
+}
+
+.shadow{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.178), transparent);
+    height: 13vw;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    z-index: 6;
+}
+
+.storyBox{
+    background-color: black;
+    color: white;
+    font-family: 'MeLikey';
+    width: 80vw;
+    height: auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: .5vw;
+    padding-top: .5vw;
+    margin: 2vh;
+    z-index: 2;
+}
+
+.imgBox{
+    background-color: white;
+    width: 30vw;
+    height: 20vw;
+    margin: 2vh;
+    z-index: 3;
+}
+
+.poster{
+    width: 30vw;
+    height: 20vw;
+    z-index: 3;
+}
+
+.title{
+    position: absolute;
+    width: 43vw;
+    height: auto;
+    text-align: center;
+    font-weight: bolder;
+    top: 13vw;
+    left: 37vw;
+    padding: .5vw;
+    font-size: 4vw;
+    z-index: 4;
+}
+.discription{
+    position: absolute;
+    width: 40vw;
+    height: auto;
+    left: 38vw;
+    top: 20vw;
+    padding: .5vw;
+    text-align: center;
+    font-size: 2vw;
+    z-index: 5;
+}

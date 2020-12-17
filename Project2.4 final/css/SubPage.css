@@ -1,0 +1,133 @@
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: url(/img/ezgif.com-gif-maker.png), 
+    url(/img/ezgif.com-gif-maker\ 2.png), 
+    url(/img/paint-2235835_1280.png);
+    background-repeat: repeat;
+    z-index: 1;
+}
+::-webkit-scrollbar {
+    width: 1.5vw;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: white; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: black; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(17, 17, 17); 
+}
+@font-face{
+    font-family: 'MeLikey';
+    src: url(/css/MeLikey.ttf);
+}
+#logo{
+    display: block;
+    width: 17%;
+    position: fixed;
+    z-index: 6;
+}
+
+#table {
+    height: 10vw;
+}
+
+#Nav{
+    z-index: 5;
+}
+
+ul#Nav {
+	list-style: none;
+    list-style-type: none;
+    margin-top: 2vw;
+    margin-left: 15vw;
+    position: fixed;
+}
+
+ul#Nav li {
+    background-image: url("/img/Button-Black-1014x600.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'MeLikey';
+    padding: 2vw;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+ul#Nav a{
+    color: black;
+    text-decoration: none;
+    text-emphasis: none;    
+}
+
+.shadow{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.178), transparent);
+    height: 13vw;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    z-index: 4;
+}
+
+#fullTextBox{
+    position: relative;
+}
+
+.textbox{
+    background-color: white;
+    color: black;
+    font-family: 'MeLikey';
+    font-size: 4vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    margin: 3vw;
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    top: -1.48vw;
+    left: 1.25vw;
+    z-index: 2;
+}
+
+.TBDecoration{
+    width: 63vw;
+    z-index: 3;
+    padding: 0;
+}
+
+.textboxtop{
+    position: absolute;
+    top: -1;
+    left: 0;
+}
+
+.textboxbottom{
+    position: absolute;
+    top: 34.6vw;
+    left: 0;
+}
+
+.textboxbottomtwo{
+    position: absolute;
+    top: 13.3vw;
+    left: 0;
+}

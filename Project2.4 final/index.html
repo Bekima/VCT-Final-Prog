@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Inky Studios</title>
+    <link href="/css/mainpage.css" rel="stylesheet">
+    <script src="/js/jquery-3.5.1.js"></script>
+
+    <script>
+        $("document").ready(function(){
+            $("ul").slideDown(1500);
+            $("a").fadeIn(5000);
+            $("#AU").hover(function(){
+                $("#AU").css("background-color", "grey");
+            }, function(){
+                $("#AU").css("background-color", "transparent");
+            });
+            $("#CU").hover(function(){
+                $("#CU").css("background-color", "grey");
+            }, function(){
+                $("#CU").css("background-color", "transparent");
+            });
+            $("#P").hover(function(){
+                $("#P").css("background-color", "grey");
+            }, function(){
+                $("#P").css("background-color", "transparent");
+            });
+    });
+    </script>
+</head>
+<body>
+    <img id="mainLogo" src="/img/Logo_NoBackground-1000x600.png" alt="Inky Studios Logo" class="logo">
+    <div id="table">   
+        <div id="MainNavBar">
+            <ul id="mainNav">
+                <li id="AU"><A href="/html/AboutUs.html" class="MenuButtonsMain">About Us</A></li>
+                <li id="CU"><A href="/html/ContactUs.html" class="MenuButtonsMain">Contact Us</A></li>
+                <li id="P"><A href="/html/Products.html" class="MenuButtonsMain">Products</A></li>
+            </ul>
+        </div> 
+    </div>
+</html>

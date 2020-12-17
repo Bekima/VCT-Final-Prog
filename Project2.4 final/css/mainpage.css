@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 1.5vw;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: black; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: white; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(17, 17, 17); 
+}
+#mainLogo{
+    display: block;
+    width: 70%;
+    position: relative;
+    max-width: 150vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#table {
+	height: 10vw;
+}
+
+#MainNavBar {
+	display: table;   /* Allow the centering to work */
+	margin: 1vw auto;
+}
+
+@font-face{
+    font-family: 'MeLikey';
+    src: url(/css/MeLikey.ttf);
+}
+
+ul#mainNav {
+	list-style: none;
+	padding-top: 2vw;
+}
+
+ul#mainNav li {
+    display: inline;
+    background-image: url("/img/Button-1014x600.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 2.5vw;
+    font-family: 'MeLikey';
+    padding: 3vw;
+}
+
+ul{
+    display: none;
+}
+
+ul#mainNav a{
+    color: white;
+    text-decoration: none;
+    text-emphasis: none;
+    display: none;    
+}
